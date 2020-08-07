@@ -1,0 +1,53 @@
+<view class="plate">
+    <!-- <navigator url="/pages/program/program" hover-class="navigator-hover" class="plate-item">
+        <view class="plate-img">
+            <image src="{{a1src}}"></image>
+            <text class="plate-info">
+                编程开发
+            </text>
+        </view>
+
+    </navigator>
+    <navigator url="/pages/english/english" hover-class="navigator-hover" class="plate-item">
+        <view class="plate-img">
+            <image src="{{a2src}}"></image>
+            <text class="plate-info">
+                英语学习
+            </text>
+        </view>
+
+    </navigator>
+    <navigator url="/pages/ideology/ideology" hover-class="navigator-hover" class="plate-item">
+        <view class="plate-img">
+            <image src="{{a3src}}"></image>
+            <text class="plate-info">
+                思政课堂
+            </text>
+        </view>
+
+    </navigator> -->
+
+</view>
+<view class="section section_gap">
+    <view class="gap"></view>
+    <view class="center">
+        <view class="color-rect"
+        style="background-color: {{colorHex}};box-shadow: 5rpx 5rpx 20rpx 5rpx rgba({{r}}, {{g}}, {{b}}, 0.5), -5rpx 5rpx 5rpx 5rpx rgba(255, 255, 255, 0.5)"></view>
+        <text class="color-text" style="color: {{colorHex}}">{{colorHex}}</text>
+    </view>
+    <view class="gap"></view>
+    <view class="body-view">
+        <slider min="0" max="255" value="{{r}}" block-size="24" selected-color="{{colorHex}}" bindchange="sliderChangingR" bindchanging="sliderChangingR"
+                show-value></slider>
+    </view>
+    <view class="body-view">
+        <slider min="0" max="255" value="{{g}}" block-size="24" selected-color="{{colorHex}}" bindchange="sliderChangingG" bindchanging="sliderChangingG"
+                show-value></slider>
+    </view>
+    <view class="body-view">
+        <slider min="0" max="255" value="{{b}}" block-size="24" selected-color="{{colorHex}}" bindchange="sliderChangingB" bindchanging="sliderChangingB" show-value></slider>
+    </view>
+    <view class="body-view">
+        <slider min="0" max="255" value="{{a}}" block-size="24" selected-color="{{colorHex}}" bindchange="sliderChangingA" bindchanging="sliderChangingA" show-value></slider>
+    </view>
+</view>

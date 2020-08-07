@@ -1,0 +1,80 @@
+/**index.wxss**/
+/*.userinfo {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*}*/
+
+/*.userinfo-avatar {*/
+/*  width: 128rpx;*/
+/*  height: 128rpx;*/
+/*  margin: 20rpx;*/
+/*  border-radius: 50%;*/
+/*}*/
+
+/*.userinfo-nickname {*/
+/*  color: #aaa;*/
+/*}*/
+
+/*.usermotto {*/
+/*  margin-top: 200px;*/
+/*}*/
+.plate {
+    display: flex;
+    margin: 10rpx 0 10rpx 0;
+}
+
+.plate-item {
+    width: 33vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plate-img {
+    padding-top: 40rpx;
+    padding-bottom: 40rpx;
+}
+
+.plate-img image {
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.plate-info {
+    font-size: 27rpx;
+}
+
+.body-view {
+    margin-left: 5vw;
+    top: 20rpx;
+    height: 80rpx;
+    margin-top: 20rpx;
+    margin-right: 5vw;
+}
+
+text {
+    margin-left: 50rpx;
+}
+
+.color-rect {
+    border-radius: 10rpx;
+    width: 400rpx;
+    height: 100rpx;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-text{
+    font-family: Consolas,"Courier New",Courier,FreeMono,monospace;
+}
+
+.gap{
+    top: 20rpx;
+    height: 80rpx;
+    margin-top: 20rpx;
+}
